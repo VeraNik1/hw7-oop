@@ -8,9 +8,9 @@ public class SatellitePhone extends Phone implements BatteryLevel, StrengthOfSig
      */
     private int batteryLevel;
 
-    public SatellitePhone(String phoneNumber, int batteryLife) {
+    public SatellitePhone(String phoneNumber, int batteryLevel) {
         super(phoneNumber);
-        this.batteryLevel = batteryLife;
+        this.batteryLevel = batteryLevel;
 
     }
     public int getBatteryLevel() {
